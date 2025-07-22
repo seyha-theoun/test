@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   const [products, setProducts] = useState([]);
@@ -27,7 +28,14 @@ export default function Services() {
               className="h-48 w-full object-cover"
             />
             <div className="p-4">
-              <h2 className="text-lg font-semibold mb-2">{product.title}</h2>
+              <h2 className="text-lg font-semibold mb-2">
+                <Link
+                  to={`/products/${product.id}`}
+                  className="text-indigo-600 hover:underline"
+                >
+                  {product.title}
+                </Link>
+              </h2>
               <p className="text-gray-600 mb-2">${product.price}</p>
               <p className="text-sm text-gray-500 line-clamp-2">
                 {product.description}

@@ -1,0 +1,57 @@
+{
+  "country": "Cambodia",
+  "official_name": "Kingdom of Cambodia",
+  "capital": "Phnom Penh",
+  "region": "Southeast Asia",
+  "population": 16720000,
+  "area_km2": 181035,
+  "languages": ["Khmer"],
+  "currency": {
+    "name": "Cambodian Riel",
+    "code": "KHR",
+    "symbol": "៛",
+    "common_usd_usage": true
+  },
+  "government": {
+    "type": "Constitutional monarchy",
+    "monarch": "Norodom Sihamoni",
+    "prime_minister": "Hun Manet"
+  },
+  "major_cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"],
+  "landmarks": [
+    {
+      "name": "Angkor Wat",
+      "location": "Siem Reap",
+      "type": "Temple complex",
+      "description": "Largest religious monument in the world, UNESCO World Heritage Site."
+    },
+    {
+      "name": "Royal Palace",
+      "location": "Phnom Penh",
+      "type": "Palace",
+      "description": "Official residence of the King of Cambodia."
+    }
+  ],
+  "climate": {
+    "type": "Tropical",
+    "seasons": ["Dry", "Rainy"],
+    "average_temperature_celsius": {
+      "min": 22,
+      "max": 35
+    }
+  },
+  "economy": {
+    "gdp_usd_billion": 29.5,
+    "major_industries": ["Garments", "Tourism", "Agriculture", "Construction"],
+    "exports": ["Clothing", "Footwear", "Rice", "Rubber", "Timber"]
+  },
+  "culture": {
+    "religion": "Theravada Buddhism",
+    "festivals": ["Khmer New Year", "Pchum Ben", "Water Festival", "Royal Ploughing Ceremony"],
+    "traditional_dance": ["Apsara Dance"],
+    "cuisine": ["Amok", "Bai Sach Chrouk", "Nom Banh Chok"]
+  },
+  "internet_domain": ".kh",
+  "calling_code": "+855",
+  "timezone": "UTC+7"
+}

@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import LoginComponent from "./components/HeaderFooter/Auth/LoginComponent";
 import SignUpComponent from "./components/HeaderFooter/Auth/SignUpComponent";
 import Contact from "./pages/Contact";
+import ProductDetail from "./pages/ProductDetail";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/Login" element={<LoginComponent />} />
         <Route path="/SignUp" element={<SignUpComponent />} />
+        <Route path="/products/:id" element={<ProductDetail />} />
       </Routes>
     </BrowserRouter>
   );
