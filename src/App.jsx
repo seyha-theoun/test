@@ -9,6 +9,7 @@ import LoginComponent from "./components/HeaderFooter/Auth/LoginComponent";
 import SignUpComponent from "./components/HeaderFooter/Auth/SignUpComponent";
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProductDetail";
+import Footer from "./components/HeaderFooter/Footer";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/SignUp" element={<SignUpComponent />} />
         <Route path="/products/:id" element={<ProductDetail />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
